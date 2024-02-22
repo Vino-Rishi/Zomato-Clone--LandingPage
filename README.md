@@ -1,3 +1,3 @@
-<h1>Day 1 : Zomato Landing Page Hero Section Created</h1>
+<h1>Day 1 : Zomato Clone Setup</h1>
 <p>First Commit in Git Hub</p>
-<h4>Following Updation only on Setup branch</h4>
+<h4>Following Updation only on sub-branches</h4>
