@@ -122,42 +122,51 @@
     font-size: 30px;
     font-weight: 400;
 }
-
 .we__offer_content p{
     font-size: 15px;
 }
 /* Collection */
+.collections {
+    margin: 4rem auto;
+    width: 90%;
+}
 .collections h1{
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 35px;
 }
 
-.collections .sub__heading_container{
-    font-size: 15px;
+.sub__heading_container{
+    font-size: 16px;
+    font-weight: 325;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
 }
 
 .sub__heading_container span:nth-child(2){
     color: #ff7e8b;
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 325;
     cursor: pointer;
 }
 
 .collections_card_container{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    width: 93%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
     margin-top: 1.25rem;
+
 }
 
 .collections_card_container .card{
     height: 300px;
-    min-width: 240px;
+    width: 240px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -188,11 +197,10 @@
     top: 0;
     left: 0;
     border-radius: 10px;
-    background: linear-gradient(0deg
-      
-        rgba(0, 0, 0, 0.9) 0%,
-        rgba(0, 0, 0, 0.5) 50%,
-        rgba(0, 0, 0, 0.5) 100%,
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5)25%,
+    rgba(0,0,0,0.2)50%,
+    rgba(0,0,0,0.3)100%
     );
 }
 
@@ -209,7 +217,39 @@
     font-weight: 400;
     letter-spacing: 0.5px;
 }
-
+/* Popular Locality */
+.popular_container {
+    margin: 3rem auto;
+    width: 90%;
+}
+.popular_container h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.popular__container_section {
+    padding: 10px;
+    margin-top: 1.25rem;
+    width: 340px;
+    height: 80px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+}
+.popular__container_section:hover {
+    box-shadow: 1px 1px #e9e2e2;
+}
+.popular__subheading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Mobile App */
 .get__the_app{
     display: flex;
