@@ -364,6 +364,90 @@
     width: 35%;
 }
 
+/* Footer Section */
+.footer_section {
+    margin:auto;
+    width: 100%;
+    padding: 3rem;
+}
+.footer_section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+    gap:1rem;
+}
+.footer_section1 img {
+    width: 130px;
+}
+.footer_btncontainer {
+    display: flex;
+    gap: 1rem;
+
+}
+.footer_btncontainer button {
+    padding: 5px;
+    width: 90px;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.footer_btncontainer button img {
+    width: 16px;
+}
+/* grid */
+.navigation_container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: auto;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.link__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.link__container h5 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.8px;
+}
+.link__container a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 13px;
+    color: gray;
+}
+.link__container a:hover {
+    color: black;
+}
+.section__link_container button {
+    border-radius: 30px;
+    padding: 5px;
+    border:none;
+    background-color:black;
+    color: white;
+
+}
+.footer_logo {
+    width: 130px;
+}
+.disclaimer_footer p {
+    margin: auto;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+    font-weight: 250;
+    font-size: 14px;
+    color: gray;
+}
 
 /* media query */
 @media only screen and (max-width: 600px){
@@ -390,4 +474,17 @@
     .we__offer_content p{
         font-size: 12.5px;
     }
+    .navigation_container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+    }
+}
+@media only screen and (max-width:300) {
+
+    .navigation_container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
