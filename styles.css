@@ -75,6 +75,7 @@
 .search_bar2 {
     width:  600px;
     padding-left: 10px;
+    outline: none;
 }
 .search__bar_location_icon {
     color:#FF7E8B;
